@@ -6,3 +6,4 @@
 *.ipynb text eol=lf
 *.png binary
 *.pdf binary
+*.txt text eol=lf
