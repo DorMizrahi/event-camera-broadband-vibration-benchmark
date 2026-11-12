@@ -2,7 +2,7 @@
 
 **Source code, benchmark configuration, evaluation results, and supplementary material** for the VIBROENGINEERING 2027 conference manuscript, *“Broadband Vibration Estimation from Event-Camera Streams without Learned Calibration: A Synthetic Benchmark.”*
 
-**Status:** Prepared research reproducibility release. The article and dataset are separate records. This repository should only be made public after the author confirms publication rights, release scope and the dataset link.
+**Status:** Public research reproducibility package. The author has confirmed release permission and access to the separate Zenodo dataset. The historical v2e environment remains unidentified; see the reproduction limitations below.
 
 ## What this project does
 
@@ -81,6 +81,6 @@ If a full rebuild is unavailable, the verified analysis tables are available in 
 
 Please cite the manuscript if and when bibliographic publication details become available, and cite the benchmark dataset using its Zenodo metadata. This repository **does not currently contain a public software license**: rights/permissions for source and generated materials must be confirmed before switching the repository to Public. Third-party notices are under `simulator/THIRD_PARTY_NOTICES.md`.
 
-## Before publishing
+## Release and manuscript link
 
-See [`docs/RELEASE_CHECKLIST.md`](docs/RELEASE_CHECKLIST.md). **Replace `[GitHub repository URL]` in the manuscript** with the URL of the actual public repository only after the release and access checks pass.
+The repository is public at https://github.com/DorMizrahi/event-camera-broadband-vibration-benchmark. See [`docs/RELEASE_CHECKLIST.md`](docs/RELEASE_CHECKLIST.md) for the release audit and remaining optional verification tasks. The final manuscript's Data Availability statement should link to this repository and the separate Zenodo dataset.
