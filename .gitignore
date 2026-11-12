@@ -1,0 +1,17 @@
+# Generated numerical outputs and large datasets
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+reproduced/
+reproduction_output/
+outputs/
+DATASET/
+dataset/
+*.h5
+*.hdf5
+*.mp4
+*.avi
+.DS_Store
+Thumbs.db

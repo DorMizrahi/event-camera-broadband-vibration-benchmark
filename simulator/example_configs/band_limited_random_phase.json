@@ -1,0 +1,10 @@
+{
+  "experiment": {"name": "example_band_limited_random_phase"},
+  "motion": {
+    "type": "band_limited_random_phase",
+    "band_limited_random_phase": {
+      "num_components": 80,
+      "spectral_variant": "flat"
+    }
+  }
+}

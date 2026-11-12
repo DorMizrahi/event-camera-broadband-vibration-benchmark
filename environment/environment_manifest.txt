@@ -1,0 +1,7 @@
+Current inference, evaluation and diagnostic environment
+Windows 11 AMD64 build 26200; Intel64 Family 6 Model 142.
+CPython 3.12.14 (MSC v.1944, 64 bit); NumPy 2.5.1; SciPy 1.18.0; pandas 3.0.5; h5py 3.16.0 with HDF5 2.0.0; Matplotlib 3.11.1.
+The packaged requirements list excludes the machine-local editable install; the inference package is supplied as source.
+Historical inference source release: event_vibration_standalone_no_calibration_v1_0, distributed version 1.0.0.
+Original event-generation v2e release, commit and Python version: unknown.
+Statistical RNG: NumPy default_rng(2027). Peak assignment and inference are deterministic for the archived inputs.

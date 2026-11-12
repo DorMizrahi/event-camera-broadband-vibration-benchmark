@@ -1,0 +1,16 @@
+# Broadband synthetic event vibration dataset configuration
+frequency_range_hz: [50.0, 2000.0]
+samples_per_highest_cycle: 20
+video_fps: 40000.0
+duration_sec: 0.2
+resolution: [240, 180]
+marker_radius_px: 5.0
+base_position_px: [120.0, 90.0]
+event_format: "HDF5 dataset events with columns [t_us, x, y, p]"
+event_conversion_method: "v2e"
+v2e_disable_slomo: true
+v2e_pos_thres: 0.2
+v2e_neg_thres: 0.2
+v2e_sigma_thres: 0.03
+v2e_refractory_period_sec: 0.0001
+v2e_available_at_generation: true

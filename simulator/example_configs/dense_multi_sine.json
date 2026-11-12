@@ -1,0 +1,7 @@
+{
+  "experiment": {"name": "example_dense_multi_sine"},
+  "motion": {
+    "type": "dense_multi_sine",
+    "dense_multi_sine": {"num_components": 32}
+  }
+}

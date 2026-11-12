@@ -1,0 +1,7 @@
+# Reproducibility boundaries
+
+The source of truth for inference is the archived HDF5 events. The minimal release and larger archive have byte-identical events and reference trajectories in all 30 cases. The scientific tests verify the public-format file layout and all 122 entries in checksums.sha256. The dataset record number comes from the submitted PDF. Access to the live record was unavailable during packaging; local verification used the supplied minimal archive.
+
+Statistical reproduction requires the archived evaluation definitions, particularly equal weighting of experiment-level frequency MAEs and the 35-finite-test Holm family. Bootstrap seed 2027 and resample counts are specified in the report. Unknown historical emulator and Python builds preclude a guarantee of byte-identical regeneration. The historical v2e seed setting was zero in every argument log. The separately supplied standalone simulation generator has a different seed policy; running its example presets does not recreate the archival conditions.
+
+emulator_settings.csv records all resolved key/value arguments from the original logs, with machine-specific file and directory paths reduced to basenames. archive_hashes.csv identifies the inputs by basename and SHA-256. Scientific source files are copied intact. The current pinned environment targets the recorded Windows/Python combination. Availability of binary wheels on other platforms can differ.

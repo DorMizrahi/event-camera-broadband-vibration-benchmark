@@ -1,0 +1,7 @@
+{
+  "experiment": {"name": "example_single_sine_500hz"},
+  "motion": {
+    "type": "single_sine",
+    "single_sine": {"frequency_hz": 500.0, "phase_x_rad": 0.0}
+  }
+}

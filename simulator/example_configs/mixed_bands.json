@@ -1,0 +1,10 @@
+{
+  "experiment": {"name": "example_mixed_bands"},
+  "motion": {
+    "type": "mixed_bands",
+    "mixed_bands": {
+      "bands_hz": [[50.0, 200.0], [1000.0, 2000.0]],
+      "components_per_band": [6, 6]
+    }
+  }
+}

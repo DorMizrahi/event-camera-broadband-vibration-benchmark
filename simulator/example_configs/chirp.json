@@ -1,0 +1,11 @@
+{
+  "experiment": {"name": "example_linear_chirp"},
+  "motion": {
+    "type": "chirp",
+    "chirp": {
+      "start_frequency_hz": 50.0,
+      "end_frequency_hz": 2000.0,
+      "kind": "linear"
+    }
+  }
+}
